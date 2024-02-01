@@ -5,13 +5,13 @@ lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
-  spec.name          = 'discourse_mail_receiver'
+  spec.name          = 'jericson_mail_receiver'
   spec.version       = '4.0.7'
-  spec.authors       = ['Discourse Team']
-  spec.email         = ['team@discourse.org']
+  spec.authors       = ['Jon Ericson']
+  spec.email         = ['jon@jlericson.com']
   spec.description   = %q{A gem used to package the core .rb files of the mail-receiver.}
   spec.summary       = spec.description
-  spec.homepage      = 'https://github.com/discourse/mail-receiver'
+  spec.homepage      = 'https://github.com/jericson/mail-receiver'
   spec.license       = 'MIT'
 
   spec.required_ruby_version = '>= 2.5.0'
