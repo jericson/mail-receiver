@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 require_relative '../../lib/mail_receiver/mail'
 
-RSpec.describe 'domain_from_addrspec' do
+RSpec.describe DiscourseMailReceiver do
 
   it "normalises domains to lowercase" do
     expect(domain_from_addrspec("local-part@DOMAIN.NET")).to eq "domain.net"
